@@ -49,46 +49,6 @@ td,th { padding: 0; }
 .error{ color:#900; background:#FFD7D7; }
 .clearboth{clear:both;}
 
-.botonform1{
-   background: #fff;
-    color: #ff3700;
-    padding: 5px;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-  font-weight: bold;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  margin-top: 5px;
-}
-.botonform1:hover {
-    box-shadow: 0 0px 15px 0.1px rgba(0, 0, 0, 0.7);
-    -webkit-transform: scale(1.005);
-    -ms-transform: scale(1.005);
-    transform: scale(1.005);
-    cursor:pointer;
-}
-.botonform{
-	border: transparent;
-    text-decoration: none;
-    border-radius: 2px;
-	background: linear-gradient(#fe5c2e, #ff3700);
-	/*background: linear-gradient(#b80306, #6a0e0f);
-	background-color: #961416;*/
-    color: #f2f2f2;
-	padding: 6px 30px;
-	 font-size: 15px;
-	 letter-spacing: 1.5pt;
-}
-.botonform:hover {
-    box-shadow: 0 0px 3px 0.1px rgba(0, 0, 0, 0.7);
-	border-color: #a7a7a7;
-	cursor:pointer;
-	background-color: #961416;
-	-webkit-transform: scale(1.001);
-    -ms-transform: scale(1.001);
-    transform: scale(1.001);
-	color: #ffffff;
-	font-weight: bold;
-}
 .separador{
 	border-top: 1px solid #0C0C0C;
 	border-bottom: 1px solid #333333;padding:0px 5px;

@@ -150,16 +150,16 @@ transform:scale(1.01);
 	font-size:19px;
 }
 .contactocontenido{
-	border: 1px solid #bababa;
     border-radius: 3px;
     box-sizing: border-box;
 	padding:10px 0px;
 	margin:10px 0px;
 }
 
-#contactoform,#contactofacebook{display:inline-block;vertical-align: top;}
+#contactoform,#contactofacebook{display:block;vertical-align:middle;}
 #contactoform{
-	width:64%;
+	border: 1px solid #bababa;
+	width:100%;
 	text-align: center;
 }
 #contactoinfo{
@@ -172,41 +172,9 @@ transform:scale(1.01);
 	font-weight: bold;
 }
 
-#formcontacto div {margin:0 auto;
-    display: block;
-	width: 98%;
-    text-align: center;
-    font-size: 1.1em;
-    margin-bottom: 5px;
-}
-#formcontacto label {
-	display: block;
-	padding: 0px;
-	width: 98%;
-	text-align:center;
-	padding:3px;
-	/*margin:0px 0px 0px 14px;*/
-}
-#formcontacto input[type="text"] , #formcontacto textarea{
-    width: 75%;
-	display: block;
-	margin:0 auto;
-    padding: 3px;
-    box-sizing: border-box;
-    font-size: 1.1em;
-}
-#formcontacto input[type="submit"]{
-	margin:5px 0px;
-	
-}
-#formcontacto textarea{
-    min-height: 150px;
-    max-height: 200px;
-    max-width: 100%;
-}
 /**/
 #contactofacebook{
-	width:34%;
+	width:100%;
 }
 /**/
 #contactomapa{
@@ -217,10 +185,6 @@ transform:scale(1.01);
   width: 98%;
   height: 535px;  
 }
-
-
-
-
 
 /* PIE */
 #pie {background:#222222;}

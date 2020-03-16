@@ -13,12 +13,14 @@
  		<link rel="image_src" href="img/link/contacto.jpg" />
 	</head>
 	<body>
+		<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
 		<div id="contenedor">
 			<div id="cabeza">		
 	<div id="cabecera">
 		<div class="contenido">
 			<div id="logo">
-				<h1 id="top"><a href="index.html" title="sider oeste">sider oeste</a></h1>
+				<h1 id="top"><a href="index.html" title="SiderOeste">SiderOeste</a></h1>
 			</div>
 		</div>
 	</div>
@@ -44,26 +46,13 @@
 						<h2>Contáctenos</h2>
 						<div class="contactocontenido" id="contactoform" >
 							<div  id="contactoinfo">
-								<h3>Información de Contacto</h3>
 								<p><span class="iconoubicacion">Dirección: </span>Paredes 777 (6400) Trenque Lauquen</p><p><span class="iconotelefono">Celular: </span>(2392) 401940 / (2392) 402461</p><p><span class="iconoemail">E-mail: </span><a href="mailto:sideroeste@gmail.com" >sideroeste@gmail.com</a> - <span class="iconoweb">Web: </span><a href="index.html" target="blank" >https://www.sideroeste.com.ar</a></p><p><span class="iconoface">Facebook: </span><a href="https://www.facebook.com/SiderOesteTrenqueLauquen" target="blank" >https://www.facebook.com/SiderOesteTrenqueLauquen</a></p>							</div>
-							<div class="formulario" id="formcontacto">
-								<h3>Formulario de Contacto</h3>
-								<p>Envíenos su mensaje o pregunta y le responderemos a la brevedad.</p>
-								<div class="mensaje"></div>						
-								<form action="http://www.sideroeste.com.ar/form/contactoprocesar.php" method="post">
-									<div><label>Nombre</label><input type="text" name="nombre"   placeholder="Nombre" required /></div>	
-									<div><label>Correo</label><input type="text" name="email"  placeholder="E-mail" required /></div>
-									<div><label>Mensaje</label><textarea name="mensaje" required></textarea></div>
-									<input name="formcontacto" type="submit" value="Enviar" class="botonform" />
-								</form>
-							</div>
 						</div>
 						<div class="contactocontenido" id="contactofacebook">
-							<h3>Encontranos en Facebook</h3>
-							<iframe src="http://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/SiderOesteTrenqueLauquen&amp;stream=true&amp;header=false" style="border:none; text-align:center; overflow:hidden; width:350 ; height:500px;"></iframe>
+							<div class="fb-page" data-href="https://www.facebook.com/SiderOesteTrenqueLauquen" data-tabs="timeline" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/SiderOesteTrenqueLauquen" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SiderOesteTrenqueLauquen">Sider Oeste</a></blockquote></div>
 						</div>
 						<div class="contactocontenido" id="contactomapa">
-							<h3>Ubicación en el Mapa</h3>
+							<h3>Donde estamos</h3>
 							<iframe src="https://www.google.com/maps/d/embed?mid=1RnEogCJDQmsTEBdaEcxvsS8mKrA&z=15"></iframe>
 						</div>
 					</div>
@@ -71,27 +60,20 @@
 			</div>
 			<div id="pie">
 	<div class="contenido">	
-		<div class="formulario" id="formpie">
-			<p>Suscribite a nuestras novedades</p>
-			<div class="mensaje" id="mensajefs"></div>			<form method="post" action="http://www.sideroeste.com.ar/form/formsuscripcion.php" name="formweb">
-				<input  name="fsemail" required="" placeholder="Ingrese su Email"  type="text" />
-				<input name="formname" type="hidden" value="fs" />
-				<input type="submit" name="fsenviar" value="Enviar" class="botonform" />
-			</form>
-		</div>
+
 		<div class="separador"></div>
 		<div class="pieinfo">
-			<p>Dirección: Paredes 777 - (6400) Trenque Lauquen - 			Teléfonos: (2392) 401940 - (2392) 402461  - <a href="contacto.php.html" >Contacto</a> - 			<span class="facepie"><a href="https://www.facebook.com/SiderOesteTrenqueLauquen" target="blank" >Facebook</a></span>			</p>
+			<p>Dirección: Paredes 777 - (6400) Trenque Lauquen - 			Teléfonos: (2392) 401940 - (2392) 402461  - <a href = "mailto: sideroeste@gmail.com">ventas@sideroeste.com</a> - 			<span class="facepie"><a href="https://www.facebook.com/SiderOesteTrenqueLauquen" target="blank" >Facebook</a></span>			</p>
 		</div>
 		<div class="separador"></div>
 		<div class="piefinal">
 			<div class="copyright">
-				<p>Copyright &copy; 2020 - <a href="index.html" title="sider oeste">sider oeste</a> - Todos los derechos reservados</p>
+				<p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> - <a href="index.html" title="SiderOeste">SiderOeste</a> - Todos los derechos reservados</p>
 			</div>
 		</div>
 		<div class="clearboth"></div>
 	</div>	
-</div>											</div>
-		<script type="text/javascript" src="https://sideroeste.com.ar/js/validacion.js"></script>
+</div>
+
 <script type="text/javascript" src="js/js.js"></script>	</body>
 </html>
